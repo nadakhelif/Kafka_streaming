@@ -3,10 +3,10 @@
 
 ### Architecture
 
-The architecture consists of the following components:
+
 ![image](https://github.com/user-attachments/assets/36686cb2-e06b-46a1-b1c1-ff36214f952c)
 
-
+The architecture consists of the following components:
 1. **Producer**: Python script that generates sample sensor data and publishes it to a Kafka topic.
 2. **Kafka**: The distributed streaming platform that receives and routes the data.
 3. **Consumer**: Python script that consumes the data from the Kafka topic, processes it, and stores it in a PostgreSQL database.
