@@ -1,12 +1,11 @@
-Sure, here's a concise README for the Kafka streaming demo and visualization with PowerBI:
-
 ## Kafka Streaming Demo with PowerBI
 
-This project demonstrates a simple Kafka streaming pipeline, integrating with a PostgreSQL database and visualizing the data in PowerBI.
 
 ### Architecture
 
 The architecture consists of the following components:
+![image](https://github.com/user-attachments/assets/36686cb2-e06b-46a1-b1c1-ff36214f952c)
+
 
 1. **Producer**: Python script that generates sample sensor data and publishes it to a Kafka topic.
 2. **Kafka**: The distributed streaming platform that receives and routes the data.
